@@ -20,3 +20,13 @@ npm run dev
 npm run lint
 npm run build
 ```
+
+## GitHub Pages
+
+In the GitHub repository, open Settings > Pages and select GitHub Actions as the source.
+Push the deployment workflow and Vite configuration to the main branch. The workflow
+installs dependencies, runs ESLint, builds the app, and publishes the dist folder.
+
+Site URL after a successful deployment: https://BeibarysArystanbekuly.github.io/Task-2/
+
+Vite uses `/Task-2/` as the base path, including during local development.
