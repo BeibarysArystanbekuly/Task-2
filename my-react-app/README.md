@@ -1,8 +1,8 @@
 # Beibarys Arystanbekuly
 
-A JavaScript React app displaying Beibarys Arystanbekuly's name and photo, without CSS.
+A JavaScript React personal homepage with a colorful early-2000s style, responsive CSS Grid layout, and GitHub and Instagram contact links.
 
-The app uses three components: App, ProfileName, and ProfilePhoto.
+The app uses five components: App, ProfileName, ProfilePhoto, AboutMe, and ContactInfo.
 
 ## Run locally
 
