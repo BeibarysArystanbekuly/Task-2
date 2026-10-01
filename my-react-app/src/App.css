@@ -27,6 +27,24 @@ body {
   margin-bottom: 40px;
 }
 
+.profile-header h1,
+.profile-header img,
+.about-panel,
+.contact-panel {
+  border: 2px solid #2563eb;
+  border-radius: 8px;
+}
+
+.profile-header h1,
+.about-panel,
+.contact-panel {
+  padding: 20px;
+}
+
+.profile-header h1 {
+  min-width: 0;
+}
+
 .profile-header img {
   display: block;
   width: 140px;
@@ -65,8 +83,18 @@ li + li {
 
 .contact-panel {
   margin-top: 32px;
-  padding-top: 24px;
-  border-top: 1px solid #dcdcd8;
+}
+
+.contact-panel a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
 }
 
 .contact-panel ul {
@@ -82,16 +110,16 @@ li + li {
 }
 
 a {
-  color: #245a51;
+  color: #1d4ed8;
   text-underline-offset: 4px;
 }
 
 a:hover {
-  color: #15392f;
+  color: #1e3a8a;
 }
 
 a:focus-visible {
-  outline: 2px solid #245a51;
+  outline: 2px solid #2563eb;
   outline-offset: 5px;
   border-radius: 2px;
 }
