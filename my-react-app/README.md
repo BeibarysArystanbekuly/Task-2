@@ -1,6 +1,6 @@
 # Beibarys Arystanbekuly
 
-A JavaScript React personal homepage with a colorful early-2000s style, responsive CSS Grid layout, and GitHub and Instagram contact links.
+A JavaScript React personal homepage with minimalist styling, a responsive layout, and GitHub and Instagram contact links.
 
 The app uses five components: App, ProfileName, ProfilePhoto, AboutMe, and ContactInfo.
 
